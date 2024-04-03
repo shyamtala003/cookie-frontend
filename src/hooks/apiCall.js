@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Create an Axios instance with default configuration
 const api = axios.create({
-  baseURL: "http://localhost:3000/", // Your API base URL
+  baseURL: "https://secure-cookies-backend.onrender.com/", // Your API base URL
   withCredentials: true, // Send cookies with every request
 });
 
